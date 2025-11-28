@@ -1,20 +1,37 @@
-bqplot
-ipycanvas>=0.9.1
-ipyevents>=2.0.1
-ipyleaflet
-ipympl>=0.8.2
-ipywidgets>=7.7,<8
-jupyterlab~=3.4.3
-jupyterlab-drawio
-jupyterlab-fasta>=3,<4
-jupyterlab-geojson>=3,<4
-jupyterlab-tour
-jupyterlab_miami_nights
+# --- Compatible core versions ---
 jupyterlite==0.1.0b12
+jupyterlab==3.4.3
+jupyterlab_server<2.0
+
+# --- IPython pinned for Pyodide (Python 3.10) ---
+ipython<8.31
+
+# --- JupyterLab 3 extensions (compatible with 3.4.x) ---
+jupyterlab-drawio==0.9.0
+jupyterlab-fasta==3.0.1
+jupyterlab-geojson==3.4.0
+jupyterlab-tour==3.1.0
+jupyterlab_miami_nights==0.2.0
+
+# --- JupyterLite kernels matching 0.1.x ---
 jupyterlite-p5-kernel==0.1.0a12
 jupyterlite-xeus-lua==0.3.1
 jupyterlite-xeus-wren==0.2.1
 jupyterlite-xeus-sqlite==0.2.1
+
+# --- Widget ecosystem (JL3-compatible) ---
+ipywidgets>=7.7,<8
+ipympl>=0.8.2
+ipyleaflet==0.17.3
+bqplot==0.12.36
+ipycanvas>=0.9.1
+ipyevents>=2.0.1
+
+# --- Visualization ---
 plotly>=5,<6
+
+# --- Themes ---
 theme-darcula
+
+# --- Other ---
 nbconvert
