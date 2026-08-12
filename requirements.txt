@@ -1,10 +1,13 @@
 # Core modules (mandatory)
-jupyterlite-core==0.7.0
-jupyterlab~=4.5.0
-notebook~=7.5.0
+jupyterlite-core==0.6.0
+jupyterlab~=4.4.0
+notebook~=7.4.0
 
 # Python kernel (optional)
-jupyterlite-pyodide-kernel==0.7.0
+jupyterlite-pyodide-kernel~=0.6.0
+
+# R kernel powered by webR/WebAssembly
+jupyterlite-webr==0.6.0
 
 # JavaScript kernel (optional)
 jupyterlite-javascript-kernel==0.3.0
@@ -30,6 +33,8 @@ jupyterlab_miami_nights
 
 # Python: ipywidget library for Jupyter notebooks (optional)
 ipywidgets>=8.1.3,<9
+# Browser/Python bridge used by the camera and microphone demo
+anywidget>=0.9,<1
 # Python: ipyevents library for Jupyter notebooks (optional)
 ipyevents>=2.0.1
 # Python: interative Matplotlib library for Jupyter notebooks (optional)
